@@ -39,6 +39,8 @@ body {
     text-decoration: none;
     color: #2c3e50;
     font-size: 1.2em;
+    display: flex;
+    align-items: center;
 }
 
 #sidebar ul li a:hover {
@@ -183,4 +185,10 @@ img {
     width: 250px;
     height: auto;
     border-radius: 8px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; 
 }
