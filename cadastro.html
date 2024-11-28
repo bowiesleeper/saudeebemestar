@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro - Cuidando da Mente</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap" rel="stylesheet">
+    <style>
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        button {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav id="sidebar">
+        <ul>
+            <li><a href="login.html">Login</a> | <a href="cadastro.html">Cadastro</a></li>
+            <li><a href="projeto.html">Página Inicial</a></li>
+            <li><a href="saude_mental.html">O Que é Saúde Mental?</a></li>
+            <li><a href="transtornos.html">Transtornos Mentais Comuns</a></li>
+            <li><a href="prevencao.html">Estratégias de Prevenção</a></li>
+            <li><a href="ajuda.html">Como Procurar Ajuda</a></li>
+        </ul>
+    </nav>
+
+   
+    <div id="content">
+        
+        <header>
+            <div class="container">
+                <h1>Cadastro de Usuário</h1>
+            </div>
+        </header>
+
+        
+        <section id="cadastro">
+            <div class="container">
+                <form action="login.html" method="GET">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+
+                    <label for="confirmar-senha">Confirmar Senha:</label>
+                    <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+
+        
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Cuidando da Mente - Todos os direitos reservados</p>
+                <p>Para mais informações, entre em contato com <a href="mailto:email@example.com">email@example.com</a>.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
