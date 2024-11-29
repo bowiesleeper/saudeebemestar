@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #2c3e50;
     background-color: #eef6f6;
@@ -192,3 +192,12 @@ img {
     height: 24px;
     margin-right: 8px; 
 }
+
+.footer-icon {
+    vertical-align: middle;  /* Alinha o ícone ao centro vertical do texto */
+    margin-right: 8px;       /* Adiciona um espaço entre o ícone e o texto */
+    width: 20px;             /* Ajusta o tamanho do ícone */
+    height: auto;            /* Garante que o ícone seja redimensionado proporcionalmente */
+    display: inline-block;   /* Garante que o ícone fique ao lado do texto */
+}
+
