@@ -19,12 +19,18 @@
 O projeto tem como objetivo explorar e promover ações relacionadas ao **ODS 3 - Saúde e Bem-Estar**,principalmente com foco na questão da saúde mental, buscando soluções para melhorar a saúde e garantir o bem-estar para todas as pessoas, em todas as idades. Focaremos principalmente em temas como o Sindrome de Burnout, Ansiedade, Depressão, estes serão os principais temas que iremos abordar nesse projeto, entretanto, irá ser comentado sobre outros problemas que atingem a população
 
 ## Estrutura do Projeto
-- **Pasta 1:** CSS
-- **Pasta 2:** Assets
-- **Pasta 3:** HTML
-- **Pasta 4:** Figs
-- **Pasta 5:** Fonts
-- **README.md:** Documento principal do projeto
+- **Pasta:** figs (imagens e recursos visuais)
+- **Arquivo:** LICENSE (licença do projeto)
+- **Arquivo:** README.md (documentação do projeto)
+- **Arquivo:** ajuda.html (página de ajuda)
+- **Arquivo:** cadastro.html (página de cadastro)
+- **Arquivo:** index.html (página inicial)
+- **Arquivo:** login.html (página de login)
+- **Arquivo:** prevencao.html (página sobre prevenção)
+- **Arquivo:** saude_mental.html (página sobre saúde mental)
+- **Arquivo:** styles.css (arquivo de estilos)
+- **Arquivo:** transtornos.html (página sobre transtornos)
+
 
 ## Técnicas e tecnologias utilizadas
 
