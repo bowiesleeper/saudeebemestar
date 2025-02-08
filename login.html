@@ -4,61 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login - Cuidando da Mente</title>
+    <title>Login - ODS 3 - Saúde e Bem-Estar</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="figs/psychology_alt_24dp_5F6368.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .auth-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .auth-links a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 5px;
+        }
+        .auth-links a:hover {
+            color: #007BFF; 
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .login-form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .login-form button {
+            padding: 10px;
+            font-size: 1.1em;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-
-    <nav id="sidebar">
-        <ul>
-            <li><a href="login.html">Login</a> | <a href="cadastro.html">Cadastro</a></li>
-            <li><a href="projeto.html">Página Inicial</a></li>
-            <li><a href="saude_mental.html">O Que é Saúde Mental?</a></li>
-            <li><a href="transtornos.html">Transtornos Mentais Comuns</a></li>
-            <li><a href="prevencao.html">Estratégias de Prevenção</a></li>
-            <li><a href="ajuda.html">Como Procurar Ajuda</a></li>
-        </ul>
-    </nav>
-
     <div id="content">
         <header>
-            <div class="container">
-                <h1>Login</h1>
-            </div>
+            <h1>Login - ODS 3</h1>
         </header>
 
-        <section id="login">
-            <div class="container">
-                <form action="projeto.html" method="POST">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
+        <form id="loginForm" class="login-form">
+            <input type="text" id="username" placeholder="Usuário" required />
+            <input type="password" id="password" placeholder="Senha" required />
+            <button type="submit">Login</button>
+        </form>
 
-                    <label for="senha">Senha:</label>
-                    <input type="password" id="senha" name="senha" required>
+        <div class="auth-links">
+            <a href="index.html">Voltar à página inicial</a> | 
+            <a href="cadastro.html">Cadastro</a>
+        </div>
 
-                    <button type="submit">Entrar</button>
-                </form>
-            </div>
-        </section>
-
-        <footer>
-            <div class="container">            
-                <p>&copy; ODS 3 </p>
-                <p>
-                    <a href="https://bowiesleeper.github.io/mgcurriculum/">
-                        <img src="figs/person_24dp_5F6368.png" alt="Ícone de Márcio Gustavo" class="footer-icon">
-                        Currículo de Márcio Gustavo
-                    </a> | 
-                    <a href="https://maisarodriguess.github.io/CvMaisa/">
-                        <img src="figs/person_24dp_5F6368.png" alt="Ícone de Maisa Rodrigues" class="footer-icon">
-                        Currículo de Maisa Rodrigues
-                    </a>
-                </p>
-            </div>
-        </footer>
     </div>
 
+    <script src="login.js"></script>
 </body>
 </html>

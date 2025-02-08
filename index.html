@@ -1,8 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta http-equiv="refresh" content="0; URL=projeto.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ODS 3 - Saúde e Bem-Estar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav id="sidebar">
+        <div class="auth-links" id="auth-links">
+            <a href="login.html">Login</a> | 
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+        <ul>
+            <li><a href="index.html">ODS 3 - Saúde e Bem-Estar</a></li>
+            <li><a href="saude_mental.html">O Que é Saúde Mental?</a></li>
+            <li><a href="transtornos.html">Transtornos Mentais Comuns</a></li>
+            <li><a href="prevencao.html">Estratégias de Prevenção</a></li>
+            <li><a href="ajuda.html">Como Procurar Ajuda</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <header>
+            <div class="container">
+                <h1>ODS 3 - Saúde e Bem-Estar</h1>
+                <p>Promovendo a saúde e o bem-estar para todos, com ênfase em saúde mental.</p>
+            </div>
+        </header>
+
+        <div id="user-info" style="display: none;">
+            <span id="user-name"></span>
+            <button id="logout-btn">Logout</button>
+        </div>
+
+        <section id="introducao">
+            <div class="container">
+                <h2>Objetivo de Desenvolvimento Sustentável 3: Saúde e Bem-Estar</h2>
+                <a href="https://brasil.un.org/pt-br/sdgs">
+                    <img src="figs/ODS3_Portal.png" alt="Imagem relacionada ao ODS 3">
+                </a>
+                <p>O Objetivo de Desenvolvimento Sustentável 3 (ODS 3) busca garantir uma vida saudável e promover o bem-estar para todos, em todas as idades.</p>
+                <p>Este projeto tem como missão oferecer informações e recursos acessíveis sobre saúde mental, abordando desde a conscientização sobre transtornos mentais até as estratégias de prevenção e busca de ajuda.</p>
+            </div>
+        </section>
+
+        <section id="saude-mental">
+            <div class="container">
+                <h2>Saúde Mental e Bem-Estar</h2>
+                <div class="saudademental">
+                    <img src="figs/saudemental_gif.gif" alt="Gif ilustrando saúde mental">
+                    <div>
+                        <p>A saúde mental é uma parte fundamental do bem-estar humano, envolvendo nosso estado emocional, psicológico e social.</p>
+                        <p>O cuidado com a saúde mental inclui práticas como buscar apoio em momentos difíceis e adotar hábitos que promovam bem-estar, como atividade física, alimentação equilibrada e descanso adequado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="useful-links">
+            <a href="index.html" class="link">Voltar à página inicial</a>
+        </div>
+
+        <div class="dalai-lama-quote">
+            <p>A maior cura é o cuidado que você dedica ao seu próprio ser. - Dalai Lama</p>
+        </div>
+
+        <footer>
+            <div class="container">            
+                <p>&copy; ODS 3 </p>
+                <p>
+                    <a href="https://bowiesleeper.github.io/mgcurriculum/">
+                        <img src="figs/person_24dp_5F6368.png" alt="Ícone de Márcio Gustavo" class="footer-icon">
+                        Currículo de Márcio Gustavo
+                    </a> | 
+                    <a href="https://maisarodriguess.github.io/CvMaisa/">
+                        <img src="figs/person_24dp_5F6368.png" alt="Ícone de Maisa Rodrigues" class="footer-icon">
+                        Currículo de Maisa Rodrigues
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

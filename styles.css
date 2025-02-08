@@ -1,3 +1,4 @@
+/* CSS Global */
 * {
     margin: 0;
     padding: 0;
@@ -136,6 +137,94 @@ footer p {
     color: #2c3e50;
 }
 
+/* Estilo de header e área do nome do usuário */
+#user-info {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#user-info span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilo para a parte de links de login/cadastro */
+.auth-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.auth-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+    font-size: 1.1em;
+}
+
+.auth-links a:hover {
+    color: #007BFF; /* Cor ao passar o mouse */
+}
+
+/* Estilo de formulário de login e cadastro */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Formatação da página de cadastro igual a de login */
+h1, h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Ajustando a exibição para o mobile */
 @media (max-width: 768px) {
     #sidebar {
         width: 100%;
@@ -194,10 +283,106 @@ img {
 }
 
 .footer-icon {
-    vertical-align: middle;  /* Alinha o ícone ao centro vertical do texto */
-    margin-right: 8px;       /* Adiciona um espaço entre o ícone e o texto */
-    width: 20px;             /* Ajusta o tamanho do ícone */
-    height: auto;            /* Garante que o ícone seja redimensionado proporcionalmente */
-    display: inline-block;   /* Garante que o ícone fique ao lado do texto */
+    vertical-align: middle;  
+    margin-right: 8px;      
+    width: 20px;             
+    height: auto;           
+    display: inline-block;   
 }
 
+/* Estilos para a página admin.html */
+#form-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#form-cadastro label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #517c8b;
+}
+
+#form-cadastro input {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+#form-cadastro input:focus {
+    border: 1px solid #9dc4b5;
+}
+
+#form-cadastro button {
+    padding: 10px;
+    background-color: #9dc4b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+#form-cadastro button:hover {
+    background-color: #517c8b;
+}
+
+#limpar-lista,
+#limpar-campos {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#limpar-lista:hover,
+#limpar-campos:hover {
+    background-color: #c0392b;
+}
+
+#lista-usuarios {
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+#lista-usuarios li {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-usuarios li span {
+    margin-right: 20px;
+}
+
+#lista-usuarios li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#lista-usuarios li button:hover {
+    background-color: #c0392b;
+}
