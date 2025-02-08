@@ -30,7 +30,7 @@ O projeto tem como objetivo explorar e promover ações relacionadas ao **ODS 3 
 
 - ``HTML``
 - ``CSS``
-
+- ``JavaScript``
 
 ---
 
