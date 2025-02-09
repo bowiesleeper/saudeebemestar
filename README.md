@@ -24,6 +24,7 @@ O projeto tem como objetivo explorar e promover ações relacionadas ao **ODS 3 
 - **Pasta 3:** HTML
 - **Pasta 4:** Figs
 - **Pasta 5:** Fonts
+- **Pasta 6:** JS
 - **README.md:** Documento principal do projeto
 
 ## Técnicas e tecnologias utilizadas
