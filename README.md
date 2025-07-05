@@ -1,39 +1,135 @@
-<div align="center">
-  <img src="https://i.imgur.com/12dtKoY.png" width="200" height="200">
-</div>
+# 📅 Módulo de Gerenciamento de Eventos e Voluntários – ELLP
 
+## 📌 Visão Geral
 
+Este repositório contém o módulo complementar do projeto de CCI para o projeto de extensão **ELLP**, com foco na **visualização e gerenciamento interno de eventos e voluntários**.
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
+O sistema não permite criação ou cadastro de novos dados — apenas consulta, organização e paginação das informações já existentes, integrando-se ao site principal.
 
-## Integrantes
-- Maisa Rodrigues
-- Márcio Gustavo
-
-## ODS Selecionado
-- ODS 3: **Saúde e Bem-Estar**
-
-## Descrição do Projeto
-O projeto tem como objetivo explorar e promover ações relacionadas ao **ODS 3 - Saúde e Bem-Estar**,principalmente com foco na questão da saúde mental, buscando soluções para melhorar a saúde e garantir o bem-estar para todas as pessoas, em todas as idades. Focaremos principalmente em temas como o Sindrome de Burnout, Ansiedade, Depressão, estes serão os principais temas que iremos abordar nesse projeto, entretanto, irá ser comentado sobre outros problemas que atingem a população
-
-## Estrutura do Projeto
-- **Pasta 1:** CSS
-- **Pasta 2:** Assets
-- **Pasta 3:** HTML
-- **Pasta 4:** Figs
-- **Pasta 5:** Fonts
-- **Pasta 6:** JS
-- **README.md:** Documento principal do projeto
-
-## Técnicas e tecnologias utilizadas
-
-- ``HTML``
-- ``CSS``
-- ``JavaScript``
+🔗 Protótipo: [Framer](https://framer.com/projects/Agentic-copy--2cVt3sbPaoouJ0pz4GDh-hDNfe?node=augiA20Il)  
+🔗 GitHub principal: [Certificadora Identitária](https://github.com/LuizaNakahira/CertificadoraIdentitaria)  
+🔗 Trello de Planejamento: [Trello - CCI](https://trello.com/b/pRYz3RRj/cci)
 
 ---
 
-## Licença
-Este projeto está licenciado sob a **MIT License**.
+## 🛠️ Para Compilar e Executar o Sistema
+
+### ⚙️ Ferramentas Utilizadas
+
+- **Editor**: [Visual Studio Code](https://code.visualstudio.com/) (v1.90+)
+- **Front-End**: HTML5, CSS3, JavaScript ES6+  
+- **Back-End**: [Node.js](https://nodejs.org/) v20.x (LTS)  
+- **Banco de Dados**: [SQLite](https://www.sqlite.org/) v3.50.2+
+- **Gerenciador de Pacotes**: [npm](https://www.npmjs.com/) v10+
+
+---
+
+### 📚 Bibliotecas Complementares
+
+- `sqlite3` – integração com banco de dados SQLite
+- `express` – servidor backend simples (se utilizado)
+- `dotenv` – gerenciamento de variáveis de ambiente
+- `nodemon` – atualização automática do servidor durante o dev
+- `uuid` – geração de IDs únicos
+
+---
+
+### 🧱 Como Executar Localmente
+
+#### 1. Clone o Projeto
+
+```bash
+git clone https://github.com/LuizaNakahira/CertificadoraIdentitaria.git
+cd CertificadoraIdentitaria
+```
+
+#### 2. Instale as Dependências
+
+```bash
+npm install
+```
+
+#### 3. Configure as Variáveis de Ambiente
+
+Crie o arquivo `.env` com os dados de conexão:
+
+```env
+SQLITE_DB_PATH=./ellp_db.sqlite
+PORT=3000
+
+```
+
+#### 4. Execute o Servidor
+
+```bash
+npm start
+```
+
+---
+
+## 🧪 Para Testar o Sistema
+
+### 👥 Equipe
+
+**Equipe Projeto CCI**  
+Participantes:  
+- [KAUAN FELIPE A DE LIMA](https://github.com/kauanfelipe96)
+- [LUIZA XAVIER NAKAHIRA](https://github.com/LuizaNakahira)  
+- [MARCIO GUSTAVO DA SILVA](https://github.com/bowiesleeper)
+- [JOÃO VICTOR G DA SILVA](https://github.com/guidorizi)
+- [WILSON DE OLIVEIRA SANTOS](https://github.com/usuario-wilson)
+
+
+
+---
+
+### 🎯 Objetivo
+
+Facilitar a navegação e organização interna dos dados de eventos e voluntários do projeto **ELLP**, otimizando a interface para as equipes administrativas.
+
+---
+
+### ✅ Funcionalidades Desenvolvidas
+
+- Visualização paginada de eventos
+- Consulta dos voluntários inscritos
+- Organização por filtros e busca
+- Integração com o sistema principal via botões no site existente
+
+---
+
+### 🔁 Roteiro para Testes
+
+1. Acesse o módulo via botões inseridos no site principal.
+2. Teste a visualização dos **eventos** com paginação.
+3. Acesse o módulo de **voluntários** e utilize filtros.
+4. Verifique se os dados estão sendo carregados corretamente via SQLite.
+5. Teste responsividade e desempenho da navegação.
+
+---
+
+
+## 🔀 GitHub – Organização e Padronização
+
+### 🌿 Estrutura de Branches
+
+- `main`: Versão final e estável do sistema.
+- `dev-front`: Desenvolvimento do front-end.
+- `dev-back`: Desenvolvimento do back-end.
+
+
+### 📏 Regras de Uso
+
+- Crie branches a partir de `dev-front` ou `dev-back`
+- Após finalizar:
+  - Teste localmente
+  - Crie um Pull Request
+  - Após o merge, delete a branch
+
+---
+
+
+
+## 📄 Licença
+
+MIT © 2025 – Projeto CCI
