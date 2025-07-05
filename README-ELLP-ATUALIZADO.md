@@ -71,7 +71,14 @@ npm start
 ### 👥 Equipe
 
 **Equipe Projeto CCI**  
-Participantes: KAUAN FELIPE A DE LIMA, LUIZA XAVIER NAKAHIRA, MARCIO GUSTAVO DA SILVA, JOÃO VICTOR G DA SILVA, WILSON DE OLIVEIRA SANTOS  
+**Equipe Projeto CCI**  
+Participantes:  
+- [KAUAN FELIPE A DE LIMA](https://github.com/kauanfelipe96)
+- [LUIZA XAVIER NAKAHIRA](https://github.com/LuizaNakahira)  
+- [MARCIO GUSTAVO DA SILVA](https://github.com/bowiesleeper)
+- [JOÃO VICTOR G DA SILVA](https://github.com/guidorizi)
+- [WILSON DE OLIVEIRA SANTOS](https://github.com/usuario-wilson)
+
 
 
 ---
