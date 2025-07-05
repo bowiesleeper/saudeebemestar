@@ -71,7 +71,6 @@ npm start
 ### 👥 Equipe
 
 **Equipe Projeto CCI**  
-**Equipe Projeto CCI**  
 Participantes:  
 - [KAUAN FELIPE A DE LIMA](https://github.com/kauanfelipe96)
 - [LUIZA XAVIER NAKAHIRA](https://github.com/LuizaNakahira)  
