@@ -131,4 +131,4 @@ Facilitar a navegação e organização interna dos dados de eventos e voluntár
 
 ## 📄 Licença
 
-MIT © 2025 – Projeto ELLP
+MIT © 2025 – Projeto CCI
